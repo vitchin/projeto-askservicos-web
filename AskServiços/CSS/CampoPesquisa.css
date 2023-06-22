@@ -1,0 +1,71 @@
+
+.componente-pesquisa{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(65, 70, 88, 0.171);
+}
+
+.componente-pesquisa select{
+    margin: 5px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 16px;
+}
+
+.campo-pesquisa{
+    display: flex;
+    flex-direction: row;
+}
+
+.campo-pesquisa button{
+    margin: 5px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: transparent;
+    font-size: 16px;
+    background-color: rgb(74, 0, 134);
+    color: aliceblue;
+}
+
+.campo-pesquisa svg{
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    display: flex;
+
+}
+
+.campo-pesquisa button:hover{
+    background-color: rgb(89, 0, 161);
+    cursor: pointer;
+}
+
+.campo-pesquisa input{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 16px;
+}
+
+@media (max-width: 750px){
+    .componente-pesquisa{
+    display: flex;
+    flex-direction: column;
+}
+
+    .campo-pesquisa input{
+        width: 100%;
+    }
+}

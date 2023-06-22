@@ -1,0 +1,181 @@
+
+.componente-cadastro{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar-botao{
+    width: 100%;
+}
+
+.voltar-botao a{
+    text-decoration: none;
+}
+
+#btnVoltar{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgb(74, 0, 134);
+    border: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#btnVoltar svg{
+    margin-right: 5px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+#btnVoltar:hover{
+    background-color: rgb(94, 0, 171);
+}
+
+.titulo-cadastro{
+    margin: 0;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-cadastro h1{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.linha{
+    width: 100%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: rgb(80, 0, 145);
+    animation: go-back 1s;
+}
+
+@keyframes go-back {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  } 
+
+form{    
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Inter";
+}
+
+/*elementos do form*/
+form label{
+    margin: 5px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+form input, form textarea{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 235, 243);
+}
+
+form input:hover{
+    transition: 0.2s;
+    box-shadow: 0px 5px rgba(134, 116, 185, 0.705);
+}
+
+form textarea:hover{
+    transition: 0.2s;
+    box-shadow: 0px 5px rgba(182, 155, 255, 0.705);;
+}
+
+form textarea{
+    min-height: 150px;
+}
+form button{
+    margin: 5px;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgb(74, 0, 134);
+    border: none;
+    border-radius: 5px;
+}
+form button:hover{
+    transition: 0.2s;
+    background-color: rgb(124, 0, 226);
+    box-shadow: 0px 5px rgba(89, 27, 204, 0.37);
+}
+
+
+fieldset{
+    max-width: 400px;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(182, 155, 255, 0.185);;
+}
+
+/*divs do fieldset*/
+
+.separacao{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    align-items: center;
+}
+
+/*Responsividade*/
+@media (max-width: 500px){
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .separacao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campo{
+        width: 100%;
+        padding: 0;
+    }
+}

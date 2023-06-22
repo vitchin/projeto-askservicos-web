@@ -1,0 +1,50 @@
+table{
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+
+thead, tbody{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+
+th{
+    padding: 0;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(35, 0, 90);
+}
+
+td{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    background-color: rgba(202, 202, 202, 0.356);
+    border-radius: 5px;
+}
+
+td h2{
+    margin-left: 5px;
+    font-size: 18px;
+    color: rgb(35, 0, 90);
+}
+
+td p{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 450;
+    color: rgb(35, 0, 90);
+}
+
+table a{
+    color: rgb(115, 56, 255);
+}

@@ -1,0 +1,99 @@
+
+.componente-sobre {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Inter";
+}
+
+.componente-sobre h1{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(39, 0, 75);
+    padding: 5px;
+}
+
+.componente-sobre p {
+    text-align: left;
+    color: rgb(24, 0, 51);
+    padding: 5px;
+    font-size: 16px;
+}
+
+.componente-sobre ul{
+    text-align: left;
+    color: rgb(23, 23, 24);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16px;
+}
+
+.componente-equipe{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.integrantes{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pessoa{
+    margin: 1%;
+    padding: 1%;
+    width: 200px;
+    height: auto;
+    background-color: rgb(74, 0, 134);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.pessoa img{
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.pessoa h2{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin: 5px;
+}
+
+.pessoa p{
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+
+@media (max-width: 500px){
+    .integrantes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pessoa{
+        width: 100%;
+    }
+}

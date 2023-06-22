@@ -1,0 +1,103 @@
+.componente-escolha{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar-botao{
+    width: 100%;
+}
+
+.voltar-botao a{
+    text-decoration: none;
+}
+
+#btnVoltar{
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgb(74, 0, 134);
+    border: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnVoltar svg{
+    margin-right: 5px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+#btnVoltar:hover{
+    background-color: rgb(94, 0, 171);
+}
+
+.titulo-cadastro{
+    margin: 0;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-cadastro h1{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.linha{
+    width: 100%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: rgb(80, 0, 145);
+    animation: go-back 1s;
+}
+
+@keyframes go-back {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+} 
+
+.conteudo-escolha{
+    max-width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.098);
+}
+
+.escolha button{
+    margin: 5px;
+    padding: 15px;
+    width: 290px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgb(74, 0, 134);
+    border: none;
+    border-radius: 5px;
+}
+.escolha button:hover{
+    transition: 0.2s;
+    background-color: rgb(124, 0, 226);
+    box-shadow: 0px 5px rgba(89, 27, 204, 0.37);
+}
